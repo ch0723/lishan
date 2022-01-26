@@ -1,0 +1,24 @@
+.banner
+{
+    height: 40vh;
+    background: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner > .title > h2
+{
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5
+{
+    font-family: 'Noto Serif TC', serif;
+}
+
+a, p, li, button
+{
+
+}
