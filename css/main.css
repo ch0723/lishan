@@ -1,6 +1,13 @@
-.banner
+h1, h2, h3, h4, h5, a, p, li, button
 {
-    height: 40vh;
+    font-family: 'Noto Serif TC', serif;
+}
+
+
+.bg
+{
+    height: 100vh;
+    max-width: 100%;
     background: url('../img/banner.jpg');
     background-size: cover;
     background-position: center;
@@ -8,17 +15,8 @@
     position: relative;
 }
 
-.banner > .title > h2
+.content
 {
-    color: #fff;
-}
-
-h1, h2, h3, h4, h5
-{
-    font-family: 'Noto Serif TC', serif;
-}
-
-a, p, li, button
-{
-
+    color: white;
+    padding-top: 35%;
 }
