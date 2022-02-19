@@ -5,11 +5,11 @@ h1, h2, h3, h4, h5, h6, a, p, li, button
 
 .bg
 {
-    height: 90vh;
+    height: 85vh;
     max-width: 100%;
-    /* background-image: 
-    linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)), url('../img/IMG_0203.jpeg'); */
-    background: url('../img/IMG_0203.jpeg');
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)), url('../img/IMG_0203.jpeg');
+    /* background: url('../img/IMG_0203.jpeg'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,8 +18,16 @@ h1, h2, h3, h4, h5, h6, a, p, li, button
 
 .banner
 {
+    position: absolute;
     color: white;
-    padding-top: 25%;
+    /* padding-top: 25%; */
+    bottom: 0;
+    left: auto;
+}
+
+.navlink
+{
+    color: white;
 }
 
 .abicon > i
@@ -38,4 +46,20 @@ h1, h2, h3, h4, h5, h6, a, p, li, button
 {
     font-weight: bold;
     text-decoration: underline;
+}
+
+.card
+{
+    position: relative;
+}
+
+.card:hover .changeProdimg
+{
+    display: inline;
+}
+
+.changeProdimg
+{
+    position: absolute;
+    display: none;
 }
