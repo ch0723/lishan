@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5, h6, a, p, li, button
 
 .bg
 {
-    height: 85vh;
+    height: 100vh;
     max-width: 100%;
     background-image: 
     linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)), url('../img/IMG_0203.jpeg');
@@ -36,6 +36,12 @@ h1, h2, h3, h4, h5, h6, a, p, li, button
     /* color: #505cfd; */
 }
 
+.navicon > i
+{
+    color: white;
+    font-size: 1.6rem;
+}
+
 .prodlink > a
 {
     color: black;
@@ -62,4 +68,10 @@ h1, h2, h3, h4, h5, h6, a, p, li, button
 {
     position: absolute;
     display: none;
+}
+
+.prodcard
+{
+    background-color: white;
+    width: 100%;
 }
