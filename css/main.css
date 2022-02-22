@@ -59,19 +59,34 @@ h1, h2, h3, h4, h5, h6, a, p, li, button
     position: relative;
 }
 
-.card:hover .changeProdimg
+.card:hover .changeCardimg
 {
     display: inline;
 }
 
-.changeProdimg
+.card:hover .carditem
+{
+    display: inline;
+}
+
+.changeCardimg
 {
     position: absolute;
     display: none;
 }
 
-.prodcard
+.carditem
+{
+    display: none;
+}
+
+.carditem > .row
 {
     background-color: white;
-    width: 100%;
+    width: auto;
+}
+
+.carditem > .row > .col > i
+{
+    font-size: 1.4rem;
 }
